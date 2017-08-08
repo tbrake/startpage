@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta></meta>
+    <title>Start</title>
+    <link rel="stylesheet" type="text/css" href="/Style%20Library/en-US/Themable/Core%20Styles/controls.css"
+
+  </head>
+  <body>
+    <script></script>
+    <form>
+      <div>
+        <input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="">
+        <script type="text/javascript">
+          //<![CDATA[
+          var theForm = document.forms['aspnetForm'];
+          if (!theForm) {
+              theForm = document.aspnetForm;
+          }
+          function __doPostBack(eventTarget, eventArgument) {
+              if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                  theForm.__EVENTTARGET.value = eventTarget;
+                  theForm.__EVENTARGUMENT.value = eventArgument;
+                  theForm.submit();
+              }
+          }
+          //]]>
+        </script>
+        <script src="/WebResource.axd?d=zcAhmE7qIW4Wp7W_mcivnZrkI5CzOeoL2-2qcho1oigp323s2X2Hzl1j6m--3ixNmwYP9unbm3oyMedbf3xSIS8YvUs1&amp;t=635588336026805809" type="text/javascript"></script>
+      </div>
+      <script></script>
+    </form>
+    <script></script>
+    <style type="text/css"></style>
+  </body>
+</html>
